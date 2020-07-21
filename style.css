@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+}
+
+.options button {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #427ec7;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    cursor: pointer;
+}
+
+.options button:hover {
+    background-color: #3d5a7e;
+}
+
+button.clear {
+    background-color: rgb(250, 119, 119);
+}
+
+button.clear:hover {
+    background-color: rgb(179, 71, 71);
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.display img {
+    height: 150px;
+}
+
+.note-count {
+    font-size: 2rem;
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin: 5px;
+}
